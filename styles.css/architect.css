@@ -63,4 +63,46 @@ nav li a {
   border: none;
   padding: 20px 25px;
   margin-bottom: 50px;
+  cursor: pointer;
+}
+.banner img {
+  width: 100%;
+}
+
+/* responsive style  */
+
+/* mobile device */
+
+@media screen and (max-width: 576px) {
+  header {
+    padding: 20px;
+  }
+  nav {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+/* medium device */
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  header {
+    padding: 50px;
+  }
+  nav {
+    flex-direction: column;
+    gap: 50px;
+  }
+}
+
+/* medium device */
+
+@media screen and (min-width: 992px) and (max-width: 1024px) {
+  header {
+    padding: 80px;
+  }
+  nav {
+    flex-direction: column;
+    gap: 50px;
+  }
 }
