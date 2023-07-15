@@ -115,6 +115,35 @@ main {
   color: #ff900e;
   font-weight: 700;
 }
+
+/* facts section style*/
+
+.facts-card-container {
+  display: flex;
+  justify-content: space-around;
+}
+.section-title {
+  margin-bottom: 24px;
+}
+
+.card {
+  border-radius: 8px;
+  border: 1px solid #ff900e;
+  text-align: center;
+  padding: 40px 30px;
+  margin-bottom: 180px;
+  margin-top: 100px;
+}
+.card-stats {
+  font-size: 2.8rem;
+  color: #424242;
+}
+.card-title {
+  color: #727272;
+  font-size: 20px;
+  font-weight: 600;
+}
+
 /* responsive style  */
 
 /* mobile device */
