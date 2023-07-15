@@ -23,6 +23,10 @@
   margin-bottom: 50px;
   cursor: pointer;
 }
+.section-title {
+  color: #131313;
+  font-size: 45px;
+}
 
 /* header section style */
 
@@ -47,10 +51,6 @@ nav li {
 nav li a {
   text-decoration: none;
   color: #424242;
-}
-.nav-title {
-  color: #131313;
-  font-size: 45px;
 }
 
 /* banner section style */
