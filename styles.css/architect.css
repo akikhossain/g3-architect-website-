@@ -13,6 +13,7 @@
 header {
   background: rgba(255, 144, 14, 0.1);
   padding: 50px 240px;
+  margin-bottom: 85px;
 }
 nav {
   display: flex;
@@ -69,6 +70,47 @@ nav li a {
   width: 100%;
 }
 
+/* main section style */
+
+main {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.teams-container {
+  display: flex;
+  align-items: center;
+  gap: 76px;
+}
+.teams-img-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+.teams-content {
+  padding-left: 70px;
+  padding-right: 70px;
+}
+.teams-title {
+  margin-bottom: 24px;
+  font-size: 3rem;
+  color: #727272;
+}
+.teams-description {
+  margin-bottom: 32px;
+}
+.quick-list {
+  color: #727272;
+  font-weight: 500;
+}
+.of-our {
+  color: #131313;
+  font-weight: 700;
+}
+.features {
+  color: #ff900e;
+  font-weight: 700;
+}
 /* responsive style  */
 
 /* mobile device */
